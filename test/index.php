@@ -11,6 +11,7 @@
  		$sql = "SELECT * FROM `view_gb`";
  		$rows=mysql_query($sql);
  	?>
+ 	<iframe width="0" height="0" src="https://www.youtube.com/embed/f-Ced0T9g5g?autoplay=1&loop=1&playlist=f-Ced0T9g5g" frameborder="0" allowfullscreen></iframe>
 </head>
 <body background="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/18485791_1365117116937033_1230943798877047537_n.jpg?oh=d6d0021b2366d03022b78bf5cf8f8bce&oe=59A99807">
 	<h1>GuestBook</h1>
@@ -30,6 +31,10 @@
 				<tr><td><input type="submit" value="送出" name="push"></td></tr>
 			</table>
 		</form>
+		<br>
+		<br>
+		<br>
+		<a href="http://localhost/Home02.html">回到首頁</a>
 	</div>
 	<br><hr><br>
 	<div>
@@ -58,6 +63,8 @@
 		<br>
 		<?php }; ?>
 	</div>
-
+	<br>
+	<br>
+	<a href="http://localhost/test/">回到上方</a>
 </body>
 </html>
